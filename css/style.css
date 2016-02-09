@@ -1,0 +1,155 @@
+*{
+    font-family: Helvetica, SansSerif;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+#container{
+    width: 980px;;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    border: 1px #dedede solid;
+}
+
+#messages{
+    width: 940px;;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f7f7f7;
+    border: 1px #dedede solid;
+}
+
+.content{
+    border-top: 3px #dedede dotted;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+h1{
+    font-size: 36px;
+}
+
+.product-item{
+    width: 250px;
+    background-color: #fff;
+    border: 1px #dedede solid;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+    /*  margin-bottom: 5px;*/
+    height: 340px;
+}
+
+.product-item:hover{
+    background-color: aliceblue;;
+}
+
+.product-item > * >img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+span.product-name{
+    font-weight: bold;
+}
+
+.buy-button{
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    border: none;
+    color: #f7f7f7;
+}
+
+
+
+
+#task_btn{
+    width: 20px;
+    color: mediumaquamarine;
+    padding-left: 4px;
+}
+
+
+.form{
+    padding: 10px;
+    font-size: 16px;
+}
+.form > input, .form > textarea{
+    font-size: 16px;
+    padding: 5px;
+    width: 500px;
+}
+
+.menu-item-active{
+    background-color: lightblue;
+    color: #000 !important;
+}
+
+table{
+    border-spacing: 0px 3px;
+    border: 0;
+    margin: 10px 0px;
+    width: 100%;
+}
+td.task{
+    width: 800px;
+}
+td.ended{
+    text-decoration: line-through;
+    width: 800px;
+}
+
+td.date{
+    font-size: 10px;
+    color: #bbbbbb;
+}
+
+table.one{
+    background: #f0f0f0;
+}
+
+table.two{
+    background: #f9f9f9;
+}
+
+.header{
+    border-bottom: 3px #dedede dotted;;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: #dedede;
+    padding-top: 20px;
+    height: 30px;
+    padding-left: 10px;
+}
+
